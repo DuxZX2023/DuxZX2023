@@ -1,0 +1,40 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+   float notas, r, pi, h, volumen, opcion;
+   p=3.14;
+    
+    do {
+        std::cout << " menu papus " << std::endl;
+        std::cout << " notas " << std::endl;
+        std::cout <<  " cilindro " << std::endl;
+        std::cout << " ay no se " << std::endl;
+       switch (opcion){
+       case 1: 
+       cout << " ok perro vamos a ver si pasaste esta materia ";
+       std::cin >> notas;
+       if (notas >51){
+           cout << " haha perro te aplazaste xd ";
+           else if (notas < 51) {
+               cout << " ya estas papu vete de la clase ya paseste ";
+           } break;
+           case 2: 
+           std::cout <<" tons mira vamos a calcular un cilindro ";
+           std::cin >> r;
+            std::cin >> h;
+            volumen = (pi * r * r * h);
+            cout << "ya estas papu toma" << volumen << endl;
+        break;
+        case 3:
+        cout << "llegaste al final de las opciones papu por ahora eso es todo asi que solo toma el 1 o 2";
+        break;
+            
+       }
+       }
+    } while (opcion == 1 && opcion == 2 && opcion == 3);
+
+    return 0;
+}
